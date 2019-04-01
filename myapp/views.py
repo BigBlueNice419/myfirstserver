@@ -10,4 +10,4 @@ def personal(request, some_name):
     return HttpResponse("<h2> Hello, " + some_name + " </h2>")
 
 def random(request):
-    return JsonResponse({'number' : randint(0, 1000000000)})
+    return JsonResponse({'number' : randint(0, 1000000000)})    
